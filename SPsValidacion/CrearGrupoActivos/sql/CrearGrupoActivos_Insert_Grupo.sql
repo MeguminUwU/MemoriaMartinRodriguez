@@ -1,0 +1,20 @@
+INSERT INTO "BSCL.Plataforma.BD::COM.GrupoActivos"(
+	"IdGrupoActivos",
+	"DescripcionGrupoActivos",
+	"IdTipoGrupoActivos",
+	"FechaCreacion",
+	"FechaModificacion",
+	"IdEstado",
+	"PorDefecto",
+	"IdEmpresa"
+)
+VALUES(
+	:IdGrupoActivos,
+	:DescripcionGrupoActivos,
+	:IdTipoGrupoActivos,
+	:FechaCreacion,
+	:FechaModificacion,
+	:IdEstado,
+	:PorDefecto,
+	:IdEmpresa
+)
